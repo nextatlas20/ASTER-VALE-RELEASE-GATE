@@ -1,0 +1,8 @@
+component_id,component_name,owner,depends_on,track,revision
+CMP-API,Gateway,Platform,,core,1
+CMP-AUTH,Identity,Security,CMP-API,core,1
+CMP-WEB,Portal,Experience,CMP-AUTH;CMP-API,core,2
+CMP-WEB,Portal obsolete,Experience,CMP-API,core,1
+CMP-DOCS,Handbook,Enablement,,docs,1
+CMP-OPS,Runbook,Operations,CMP-DOCS,ops,1
+CMP-BAD,Ignored,Operations,CMP-API,ops,zero
