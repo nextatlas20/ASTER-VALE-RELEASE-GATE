@@ -1,0 +1,6 @@
+component_id	component_name	owner	track	dependencies	tests	security	state	blocker_roots
+CMP-API	Gateway	Platform	core		pass	fail	blocked	CMP-API
+CMP-AUTH	Identity	Security	core	CMP-API	pass	pass	blocked	CMP-API
+CMP-DOCS	Handbook	Enablement	docs		pass	pass	ready	
+CMP-OPS	Runbook	Operations	ops	CMP-DOCS	pass	missing	blocked	CMP-OPS
+CMP-WEB	Portal	Experience	core	CMP-AUTH;CMP-API	pass	pending	blocked	CMP-API;CMP-WEB
